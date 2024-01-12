@@ -48,13 +48,14 @@ if page == "Dashboard":
         st.plotly_chart(suppliers_pie, use_container_width=True)  # Use container width for responsive plot size
 
 
+    # Assuming you have loaded your data into a DataFrame called data
+    region_dailytotal = data.groupby('region_name')['dailytotal'].sum().reset_index()
 
-   
+    # Drop rows with missing values
+    region_dailytotal = region_dailytotal.dropna()
 
-
-    # Assuming region_dailytotal is your DataFrame
-    region_dailytotal = region_dailytotal.dropna()  # Drop rows with missing values
-    region_dailytotal['dailytotal'] = pd.to_numeric(region_dailytotal['dailytotal'], errors='coerce')  # Convert 'dailytotal' to numeric
+    # Convert 'dailytotal' to numeric if needed
+    region_dailytotal['dailytotal'] = pd.to_numeric(region_dailytotal['dailytotal'], errors='coerce')
 
     # Create a treemap plot
     fig_dailytotal_treemap = px.treemap(region_dailytotal, path=['region_name'], values='dailytotal',
@@ -62,6 +63,10 @@ if page == "Dashboard":
                                         title='Daily Total Vaccinations for Each Region (Treemap Plot)')
 
     st.plotly_chart(fig_dailytotal_treemap, use_container_width=True)
+
+   
+
+
 
 
 
