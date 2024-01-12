@@ -56,6 +56,7 @@ if page == "Dashboard":
 
     # Convert 'dailytotal' to numeric if needed
     region_dailytotal['dailytotal'] = pd.to_numeric(region_dailytotal['dailytotal'], errors='coerce')
+    region_dailytotal = region_dailytotal.dropna()
 
     # Create a treemap plot
     fig_dailytotal_treemap = px.treemap(region_dailytotal, path=['region_name'], values='dailytotal',
@@ -63,6 +64,7 @@ if page == "Dashboard":
                                         title='Daily Total Vaccinations for Each Region (Treemap Plot)')
 
     st.plotly_chart(fig_dailytotal_treemap, use_container_width=True)
+
 
    
 
