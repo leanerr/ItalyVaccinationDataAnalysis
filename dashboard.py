@@ -1,9 +1,9 @@
-from turtle import title
 import streamlit as st
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
+
 
 # Load the dataset
 data = pd.read_csv('ItvaccinationMergedMap.csv')
