@@ -66,6 +66,7 @@ if page == "Dashboard":
     st.plotly_chart(fig_dailytotal_treemap, use_container_width=True)
 
 
+
    
 
 
