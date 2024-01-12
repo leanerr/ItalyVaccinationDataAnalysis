@@ -15,7 +15,7 @@ data['gdp_tot'].fillna(0, inplace=True)
 st.set_page_config(layout="wide")
 
 # Title of the dashboard
-st.title('Vaccination Dashboard')
+st.title('Italy Vaccination Dashboard')
 
 # Sidebar for navigation
 page = st.sidebar.selectbox("Select a Page", ["Dashboard", "Age Range Investigation", "GDP and Population", "Regions in Details","Overtime Investigation"])
@@ -52,43 +52,30 @@ if page == "Dashboard":
 
 
 
-    # GDP for Each Region (Treemap Plot)
-    st.subheader('GDP for Each Region (Treemap Plot)')
 
-    # Assuming you have a DataFrame 'data' with columns like 'region_name', 'gdp_tot', etc.
+
+
+
+
+    # Assuming you have a DataFrame 'data' with columns like 'region_name', 'dailytotal', 'males', 'females', etc.
     # data = ...
 
-    # Group by region and get the first GDP value for each region
-    region_gdp = data.groupby('region_name')['gdp_tot'].first().reset_index()
+    # Group by region and calculate the sum of dailytotal, males, and females for each region
+    region_data = data.groupby('region_name').agg({'dailytotal': 'sum', 'males': 'sum', 'females': 'sum', 'gdp_tot': 'first' , 'pop_resid' : 'first' }).reset_index()
 
-    # Drop rows with NaN values in the 'gdp_tot' column
-    region_gdp = region_gdp.dropna(subset=['gdp_tot'])
+    # Sort the DataFrame by dailytotal in descending order
+    region_data = region_data.sort_values(by='dailytotal', ascending=False)
 
-    # List of regions to exclude
-    regions_to_exclude = ['Valle d\'Aosta / Vallée d\'Aoste', 'Provincia Autonoma Trento', 'Provincia Autonoma Bolzano / Bozen', 'Friuli-Venezia Giulia']
+    # Allow user to adjust the number of displayed rows
+    num_rows = st.slider("Number of Regions to Display:", min_value=1, max_value=len(region_data), value=5)
 
-    # Drop specified regions
-    region_gdp = region_gdp[~region_gdp['region_name'].isin(regions_to_exclude)]
+    # Highlight the top N regions (adjusted by user)
+    top_regions = region_data.head(num_rows)
 
-    # Drop regions with no valid GDP values
-    region_gdp = region_gdp[region_gdp['gdp_tot'].notna()]
+    # Display the highlighted table
+    st.table(top_regions.style.highlight_max(axis=0, subset=['dailytotal'], color='black'))
 
-    # Check if there are any valid rows left after dropping NaN values and specified regions
-    if not region_gdp.empty:
-        # Create a treemap plot
-        fig_gdp_treemap = px.treemap(region_gdp, path=['region_name'], values='gdp_tot',
-                                    labels={'gdp_tot': 'GDP Total'},
-                                    title='GDP for Each Region (Treemap Plot)')
-
-        # Show the treemap plot
-        st.plotly_chart(fig_gdp_treemap, use_container_width=True)
-    else:
-        st.write("No valid data available for GDP. Please check your dataset.")
-
-
-
-
-   
+    
 
 
 
@@ -126,6 +113,21 @@ elif page == "Age Range Investigation":
     # Show the plot
     st.plotly_chart(fig_age_investigation, use_container_width=True)  # Use container width for responsive plot size
 
+    # Assuming you have a DataFrame 'df' with columns 'age_range', 'supplier', and 'dailytotal'
+    # df = ...
+
+    # Group by 'age_range', 'supplier', and sum 'dailytotal'
+    df_summed = data.groupby(['age_range', 'supplier']).agg({'dailytotal': 'sum'}).reset_index()
+
+    # Create a bar plot
+    fig = px.bar(df_summed, x='supplier', y='dailytotal', color='age_range',
+                labels={'dailytotal': 'Total Count', 'age_range': 'Age Range', 'supplier': 'Supplier'},
+                title='Distribution of Counts by Age Range and Supplier',
+                width=1000, height=600)
+
+    # Show the plot using st.plotly_chart
+    st.plotly_chart(fig, use_container_width=True)
+
 elif page == "GDP and Population":
 
        # st.subheader('Comparison of Daily Total with Population Residual for Each Region')
@@ -146,7 +148,7 @@ elif page == "GDP and Population":
         st.plotly_chart(scatter_plot_previous_infection, use_container_width=True)  # Use container width for responsive plot size
     
     # Scatter plot for GDP, Population Residual, and Daily Total for Each Region (Bubble Plot)
-        st.subheader('GDP, Population Residual, and Daily Total for Each Region (Bubble Plot)')
+      #  st.subheader('GDP, Population Residual, and Daily Total for Each Region (Bubble Plot)')
         region_stats_bubble = data.groupby('region_name').agg({
             'pop_resid': 'first',
             'gdp_tot': 'first',
@@ -156,7 +158,7 @@ elif page == "GDP and Population":
         # Create a bubble plot using Plotly Express
         fig_bubble = px.scatter(region_stats_bubble, x='gdp_tot', y='pop_resid', size='dailytotal', color='region_name',
                                 labels={'gdp_tot': 'GDP Total (Billion Euros)', 'pop_resid': 'Population Residual', 'dailytotal': 'Total Daily Vaccinations'},
-                                title='GDP, Population Residual, and Daily Total for Each Region (Bubble Plot)',
+                                title='GDP, Population Residual, and Daily Total for Each Region ',
                                 size_max=30)  # Adjust size_max as needed
 
         # Show the bubble plot
@@ -263,38 +265,7 @@ elif page == "Regions in Details":
         st.write("No valid data available for GDP. Please check your dataset.")
 
 
-    # Radar Chart for Daily Vaccination Counts by Dose Type
-    st.subheader('Daily Vaccination Counts by Dose Type (Radar Chart)')
-
-    # Assuming you have a DataFrame 'df' with columns like 'region_name', 'first_dose', 'second_dose', etc.
-    # df = ...
-
-    # Melt the DataFrame to create a long-format for Plotly Express
-    df_melted = pd.melt(data, id_vars=['region_name'], value_vars=['first_dose', 'second_dose', 'previous_infection', 'additional_booster_dose', 'second_booster', 'db3'],
-                        var_name='Dose Type', value_name='Count')
-
-    # Create a radar chart directly without using Plotly Express
-    fig_radar = go.Figure()
-
-    # Iterate over unique regions and add traces to the radar chart
-    for region in df_melted['region_name'].unique():
-        region_data = df_melted[df_melted['region_name'] == region]
-        fig_radar.add_trace(go.Scatterpolar(
-            r=region_data['Count'],
-            theta=region_data['Dose Type'],
-            mode='lines',
-            name=region
-        ))
-
-    # Update layout for better presentation
-    fig_radar.update_layout(
-        polar=dict(radialaxis=dict(visible=True, range=[0, df_melted['Count'].max()])),
-        showlegend=True,
-        title='Daily Vaccination Counts by Dose Type (Radar Chart)'
-    )
-
-    # Show the radar chart
-    st.plotly_chart(fig_radar, use_container_width=True)
+  
 
 
 
