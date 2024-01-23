@@ -1,0 +1,282 @@
+city,lat,lng,country,iso2,admin_name,capital,population,population_proper
+Rome,41.8931,12.4828,Italy,IT,Lazio,primary,2872800,2872800
+Milan,45.4669,9.1900,Italy,IT,Lombardy,admin,1366180,1366180
+Naples,40.8333,14.2500,Italy,IT,Campania,admin,966144,966144
+Turin,45.0792,7.6761,Italy,IT,Piedmont,admin,870952,870952
+Palermo,38.1157,13.3613,Italy,IT,Sicilia,admin,668405,668405
+Genoa,44.4111,8.9328,Italy,IT,Liguria,admin,580097,580097
+Bologna,44.4939,11.3428,Italy,IT,Emilia-Romagna,admin,392564,392564
+Florence,43.7714,11.2542,Italy,IT,Tuscany,admin,380948,380948
+Bari,41.1253,16.8667,Italy,IT,Puglia,admin,323370,323370
+Catania,37.5000,15.0903,Italy,IT,Sicilia,minor,311584,311584
+Venice,45.4397,12.3319,Italy,IT,Veneto,admin,261321,254850
+Verona,45.4386,10.9928,Italy,IT,Veneto,minor,257275,257275
+Messina,38.1936,15.5542,Italy,IT,Sicilia,minor,234293,234293
+Padova,45.4064,11.8778,Italy,IT,Veneto,minor,210440,210440
+Trieste,45.6503,13.7703,Italy,IT,Friuli Venezia Giulia,admin,204338,204338
+Cosenza,39.3000,16.2500,Italy,IT,Calabria,minor,200257,67239
+Taranto,40.4711,17.2431,Italy,IT,Puglia,minor,198283,198283
+Brescia,45.5389,10.2203,Italy,IT,Lombardy,minor,196745,196745
+Parma,44.8015,10.3280,Italy,IT,Emilia-Romagna,minor,195687,195687
+Prato,43.8808,11.0966,Italy,IT,Tuscany,minor,193325,193325
+Modena,44.6458,10.9257,Italy,IT,Emilia-Romagna,minor,185273,185273
+Reggio di Calabria,38.1144,15.6500,Italy,IT,Calabria,minor,181447,181447
+Reggio Emilia,44.7000,10.6333,Italy,IT,Emilia-Romagna,minor,171944,171944
+Perugia,43.1122,12.3889,Italy,IT,Umbria,admin,165683,165683
+Ravenna,44.4161,12.2017,Italy,IT,Emilia-Romagna,minor,159115,159115
+Livorno,43.5519,10.3083,Italy,IT,Tuscany,minor,158371,158371
+Cagliari,39.2278,9.1111,Italy,IT,Sardegna,admin,154106,154106
+Foggia,41.4642,15.5461,Italy,IT,Puglia,minor,151372,146803
+Rimini,44.0594,12.5683,Italy,IT,Emilia-Romagna,minor,149403,149403
+Salerno,40.6806,14.7597,Italy,IT,Campania,minor,133970,133970
+Ferrara,44.8333,11.6167,Italy,IT,Emilia-Romagna,minor,132278,132278
+Latina,41.4672,12.9036,Italy,IT,Lazio,minor,126470,126470
+Giugliano in Campania,40.9319,14.1956,Italy,IT,Campania,,124361,124361
+Monza,45.5836,9.2736,Italy,IT,Lombardy,minor,123598,123598
+Siracusa,37.0692,15.2875,Italy,IT,Sicilia,minor,121171,121171
+Bergamo,45.6950,9.6700,Italy,IT,Lombardy,minor,120923,120923
+Pescara,42.4643,14.2142,Italy,IT,Abruzzo,minor,119217,119217
+Trento,46.0667,11.1167,Italy,IT,Trentino-Alto Adige,admin,117997,117997
+Forlì,44.2333,12.0500,Italy,IT,Emilia-Romagna,minor,117863,117863
+Sassari,40.7267,8.5592,Italy,IT,Sardegna,minor,116641,116641
+Vicenza,45.5500,11.5500,Italy,IT,Veneto,minor,111620,111620
+Terni,42.5619,12.6414,Italy,IT,Umbria,minor,111189,111189
+Bolzano,46.4981,11.3548,Italy,IT,Trentino-Alto Adige,minor,107317,107317
+Novara,45.4500,8.6167,Italy,IT,Piedmont,minor,104183,104183
+Piacenza,45.0500,9.7000,Italy,IT,Emilia-Romagna,minor,103082,103082
+Ancona,43.6169,13.5167,Italy,IT,Marche,admin,100924,100924
+Udine,46.0667,13.2333,Italy,IT,Friuli Venezia Giulia,minor,99518,99518
+Catanzaro,38.9000,16.6000,Italy,IT,Calabria,admin,89718,89718
+Mestre,45.4906,12.2381,Italy,IT,Veneto,,89376,89376
+Torre del Greco,40.7853,14.3953,Italy,IT,Campania,,85332,85332
+Treviso,45.6722,12.2422,Italy,IT,Veneto,minor,84954,84954
+Como,45.8103,9.0861,Italy,IT,Lombardy,minor,83320,83320
+Busto Arsizio,45.6120,8.8518,Italy,IT,Lombardy,,83045,83045
+Sesto San Giovanni,45.5333,9.2333,Italy,IT,Lombardy,,81773,81773
+Pozzuoli,40.8231,14.1222,Italy,IT,Campania,,81141,81141
+Varese,45.8167,8.8333,Italy,IT,Lombardy,minor,80544,80544
+Casoria,40.9000,14.3000,Italy,IT,Campania,,77087,77087
+Cinisello Balsamo,45.5500,9.2167,Italy,IT,Lombardy,,75723,75723
+Caserta,41.0667,14.3333,Italy,IT,Campania,minor,75561,75561
+Ragusa,36.9250,14.7306,Italy,IT,Sicilia,minor,73638,73638
+L’Aquila,42.3500,13.4000,Italy,IT,Abruzzo,admin,69439,69439
+Potenza,40.6333,15.8000,Italy,IT,Basilicata,admin,67211,67211
+Castellammare di Stabia,40.6947,14.4803,Italy,IT,Campania,,65922,65922
+Afragola,40.9167,14.3167,Italy,IT,Campania,,64817,64817
+Legnano,45.5781,8.9183,Italy,IT,Lombardy,,60177,60177
+Marano di Napoli,40.9000,14.1833,Italy,IT,Campania,,59862,59862
+Moncalieri,45.0005,7.6848,Italy,IT,Piedmont,,57234,57234
+Bagheria,38.0833,13.5000,Italy,IT,Sicilia,,55047,55047
+Portici,40.8197,14.3411,Italy,IT,Campania,,54577,54577
+Gallarate,45.6649,8.7914,Italy,IT,Lombardy,,53425,53425
+Cava de’ Tirreni,40.7000,14.7000,Italy,IT,Campania,,53130,53130
+Aversa,40.9667,14.2000,Italy,IT,Campania,,52794,52794
+Ercolano,40.8000,14.3500,Italy,IT,Campania,,52763,52763
+Anzio,41.4472,12.6283,Italy,IT,Lazio,,52381,52381
+Acireale,37.6167,15.1667,Italy,IT,Sicilia,,52269,52269
+Pordenone,45.9500,12.6500,Italy,IT,Friuli Venezia Giulia,minor,51127,51127
+Rho,45.5333,9.0333,Italy,IT,Lombardy,,50904,50904
+Scafati,40.7536,14.5253,Italy,IT,Campania,,50686,50686
+Misterbianco,37.5183,15.0069,Italy,IT,Sicilia,,49992,49992
+Collegno,45.0775,7.5724,Italy,IT,Piedmont,,49597,49597
+Campobasso,41.5667,14.6667,Italy,IT,Molise,admin,49262,49262
+Rivoli,45.0697,7.5177,Italy,IT,Piedmont,,48629,48629
+Nichelino,44.9955,7.6466,Italy,IT,Piedmont,,47721,47721
+Cologno Monzese,45.5286,9.2783,Italy,IT,Lombardy,,47720,47720
+San Benedetto del Tronto,42.9500,13.8833,Italy,IT,Marche,,47351,47351
+Settimo Torinese,45.1333,7.7667,Italy,IT,Piedmont,,47220,47220
+Paderno Dugnano,45.5719,9.1692,Italy,IT,Lombardy,,46701,46701
+Campi Bisenzio,43.8167,11.1333,Italy,IT,Tuscany,,46696,46696
+Lissone,45.6167,9.2500,Italy,IT,Lombardy,,45535,45535
+Seregno,45.6500,9.2000,Italy,IT,Lombardy,,45131,45131
+San Giorgio a Cremano,40.8333,14.3333,Italy,IT,Campania,,45122,45122
+Marino,41.7667,12.6667,Italy,IT,Lazio,,44472,44472
+Rozzano,45.3833,9.1500,Italy,IT,Lombardy,,42442,42442
+Torre Annunziata,40.7569,14.4444,Italy,IT,Campania,,42406,42406
+Desio,45.6167,9.2167,Italy,IT,Lombardy,,42079,42079
+Albano Laziale,41.7333,12.6667,Italy,IT,Lazio,,41314,41314
+Merano,46.6696,11.1594,Italy,IT,Trentino-Alto Adige,,40485,40485
+Cantù,45.7333,9.1333,Italy,IT,Lombardy,,39932,39932
+Pomigliano d’Arco,40.9167,14.4000,Italy,IT,Campania,,39819,39819
+Marcianise,41.0333,14.3000,Italy,IT,Campania,,39792,39792
+Saronno,45.6255,9.0370,Italy,IT,Lombardy,,39419,39419
+Ciampino,41.8000,12.6000,Italy,IT,Lazio,,38645,38645
+Cesano Maderno,45.6307,9.1456,Italy,IT,Lombardy,,38637,38637
+Modugno,41.0833,16.7833,Italy,IT,Puglia,,38453,38453
+San Giuliano Milanese,45.4000,9.2833,Italy,IT,Lombardy,,38314,38314
+Melito di Napoli,40.9167,14.2333,Italy,IT,Campania,,37943,37943
+Caivano,40.9500,14.3000,Italy,IT,Campania,,37654,37654
+Grugliasco,45.0680,7.5776,Italy,IT,Piedmont,,37592,37592
+Pioltello,45.5000,9.3333,Italy,IT,Lombardy,,36920,36920
+Bollate,45.5500,9.1167,Italy,IT,Lombardy,,36486,36486
+Casalecchio di Reno,44.4833,11.2833,Italy,IT,Emilia-Romagna,,36456,36456
+Limbiate,45.5972,9.1300,Italy,IT,Lombardy,,35141,35141
+Riccione Marina,44.0000,12.6500,Italy,IT,Emilia-Romagna,,35003,35003
+Mugnano di Napoli,40.9094,14.2098,Italy,IT,Campania,,34996,34996
+Brugherio,45.5508,9.3011,Italy,IT,Lombardy,,34868,34868
+Corsico,45.4333,9.1167,Italy,IT,Lombardy,,34727,34727
+Cernusco sul Naviglio,45.5167,9.3333,Italy,IT,Lombardy,,34341,34341
+Arzano,40.9167,14.2667,Italy,IT,Campania,,34217,34217
+Angri,40.7333,14.5667,Italy,IT,Campania,,34126,34126
+Aosta,45.7333,7.3167,Italy,IT,Valle d’Aosta,admin,34082,34082
+Sant’Antimo,40.9422,14.2348,Italy,IT,Campania,,33892,33892
+Venaria Reale,45.1167,7.6333,Italy,IT,Piedmont,,33564,33564
+Santa Maria Capua Vetere,41.0833,14.2500,Italy,IT,Campania,,32893,32893
+San Donato Milanese,45.4167,9.2667,Italy,IT,Lombardy,,32664,32664
+Mascalucia,37.5667,15.0500,Italy,IT,Sicilia,,32167,32167
+San Giuseppe Vesuviano,40.8333,14.5000,Italy,IT,Campania,,31612,29836
+Milazzo,38.2170,15.2370,Italy,IT,Sicilia,,31231,31231
+Villaricca,40.9167,14.2000,Italy,IT,Campania,,31223,31223
+Marigliano,40.9333,14.4500,Italy,IT,Campania,,29879,29879
+Frattamaggiore,40.9333,14.2833,Italy,IT,Campania,,29738,29738
+Aci Catena,37.6000,15.1333,Italy,IT,Sicilia,,29418,29418
+Monfalcone,45.8000,13.5333,Italy,IT,Friuli Venezia Giulia,,28107,28107
+Boscoreale,40.7667,14.4833,Italy,IT,Campania,,27927,27927
+Spinea,45.4931,12.1606,Italy,IT,Veneto,,27909,27909
+Parabiago,45.5583,8.9477,Italy,IT,Lombardy,,27842,27842
+Sant’Anastasia,40.8667,14.4000,Italy,IT,Campania,,27690,27690
+Chiavari,44.3167,9.3333,Italy,IT,Liguria,,27410,27410
+Triggiano,41.0667,16.9167,Italy,IT,Puglia,,27180,27180
+Garbagnate Milanese,45.5771,9.0814,Italy,IT,Lombardy,,27155,27155
+Bacoli,40.8000,14.0833,Italy,IT,Campania,,26412,26412
+Porto Sant’Elpidio,43.2667,13.7500,Italy,IT,Marche,,26408,26408
+Bresso,45.5333,9.1833,Italy,IT,Lombardy,,26259,26259
+Vimercate,45.6167,9.3667,Italy,IT,Lombardy,,26170,26170
+Albignasego,45.3500,11.8667,Italy,IT,Veneto,,26071,26071
+Lainate,45.5667,9.0333,Italy,IT,Lombardy,,25763,25763
+Qualiano,40.9167,14.1500,Italy,IT,Campania,,25755,25755
+Seriate,45.6847,9.7178,Italy,IT,Lombardy,,25358,25358
+San Giovanni Lupatoto,45.3833,11.0333,Italy,IT,Veneto,,25337,25337
+Pompei,40.7500,14.5000,Italy,IT,Campania,,25207,25207
+Mariano Comense,45.7000,9.1833,Italy,IT,Lombardy,,24956,24956
+Thiene,45.7072,11.4786,Italy,IT,Veneto,,24309,24309
+Genzano di Roma,41.7022,12.6925,Italy,IT,Lazio,,23892,23892
+Ottaviano,40.8500,14.4775,Italy,IT,Campania,,23710,23710
+Muggiò,45.6000,9.2333,Italy,IT,Lombardy,,23581,23581
+Dalmine,45.6500,9.6000,Italy,IT,Lombardy,,23495,23495
+Meda,45.6667,9.1667,Italy,IT,Lombardy,,23463,23463
+Seveso,45.6434,9.1374,Italy,IT,Lombardy,,23456,23456
+San Giovanni la Punta,37.5833,15.1000,Italy,IT,Sicilia,,23399,23399
+Cardito,40.9500,14.3000,Italy,IT,Campania,,22601,22601
+Poggiomarino,40.8000,14.5500,Italy,IT,Campania,,21993,21993
+Senago,45.5833,9.1333,Italy,IT,Lombardy,,21500,21500
+Trezzano sul Naviglio,45.4333,9.0667,Italy,IT,Lombardy,,20956,20956
+Cornaredo,45.5000,9.0333,Italy,IT,Lombardy,,20534,20534
+Gorgonzola,45.5333,9.4000,Italy,IT,Lombardy,,20529,20529
+Ischia,40.7500,13.9500,Italy,IT,Campania,,20118,20118
+Cormano,45.5500,9.1667,Italy,IT,Lombardy,,20019,20019
+Novate Milanese,45.5333,9.1333,Italy,IT,Lombardy,,20003,20003
+Trentola,40.9762,14.1773,Italy,IT,Campania,,19844,19844
+Monserrato,39.2500,9.1500,Italy,IT,Sardegna,,19771,19771
+Sant’Antonio Abate,40.7333,14.5500,Italy,IT,Campania,,19704,19704
+Arese,45.5500,9.0667,Italy,IT,Lombardy,,19347,19347
+San Mauro Torinese,45.1039,7.7536,Italy,IT,Piedmont,,19048,19048
+Cusano Milanino,45.5500,9.1833,Italy,IT,Lombardy,,18797,18797
+Melzo,45.5000,9.4167,Italy,IT,Lombardy,,18493,18493
+Melegnano,45.3588,9.3238,Italy,IT,Lombardy,,18127,18127
+Aci Sant’Antonio,37.6000,15.1167,Italy,IT,Sicilia,,18076,18076
+Cercola,40.8667,14.3500,Italy,IT,Campania,,18007,18007
+Carate Brianza,45.7667,9.1833,Italy,IT,Lombardy,,17952,17952
+Grumo Nevano,40.9333,14.2667,Italy,IT,Campania,,17939,17939
+Arcore,45.6333,9.3167,Italy,IT,Lombardy,,17916,17916
+Beinasco,45.0167,7.5833,Italy,IT,Piedmont,,17856,17856
+Forio,40.7333,13.8500,Italy,IT,Campania,,17840,17840
+Agliana,43.9000,11.0000,Italy,IT,Tuscany,,17789,17789
+Cattolica,43.9667,12.7333,Italy,IT,Emilia-Romagna,,17177,17177
+Nerviano,45.5500,8.9833,Italy,IT,Lombardy,,17176,17176
+Alpignano,45.1000,7.5167,Italy,IT,Piedmont,,16811,16811
+Malnate,45.8000,8.8833,Italy,IT,Lombardy,,16784,16784
+Sorrento,40.6278,14.3736,Italy,IT,Campania,,16405,16405
+Brusciano,40.9167,14.4167,Italy,IT,Campania,,16371,16371
+Cadoneghe,45.4500,11.9333,Italy,IT,Veneto,,16176,16176
+Frattaminore,40.9500,14.2667,Italy,IT,Campania,,16131,16131
+Porto San Giorgio,43.1833,13.8000,Italy,IT,Marche,,16068,16068
+Concorezzo,45.5897,9.3359,Italy,IT,Lombardy,,15644,15644
+Agrate Brianza,45.5833,9.3500,Italy,IT,Lombardy,,15540,15540
+Merate,45.7000,9.4333,Italy,IT,Lombardy,,14891,14891
+Ospitaletto,45.5553,10.0733,Italy,IT,Lombardy,,14711,14711
+Sant’Arpino,40.9575,14.2492,Italy,IT,Campania,,14606,14606
+Castellanza,45.6167,8.9000,Italy,IT,Lombardy,,14340,14340
+Rescaldina,45.6167,8.9500,Italy,IT,Lombardy,,14185,14185
+Solaro,45.6150,9.0839,Italy,IT,Lombardy,,14163,14163
+Casandrino,40.9333,14.2500,Italy,IT,Campania,,14125,14125
+Santa Maria a Vico,41.0333,14.4833,Italy,IT,Campania,,14004,14004
+Calolziocorte,45.8000,9.4333,Italy,IT,Lombardy,,13877,13877
+Opera,45.3833,9.2167,Italy,IT,Lombardy,,13858,13858
+Cassina de’ Pecchi,45.5167,9.3667,Italy,IT,Lombardy,,13849,13849
+Varedo,45.6000,9.1667,Italy,IT,Lombardy,,13446,13446
+Piano di Sorrento,40.6333,14.4111,Italy,IT,Campania,,13008,13008
+Cicciano,40.9667,14.5333,Italy,IT,Campania,,12897,12897
+Monte di Procida,40.8000,14.0500,Italy,IT,Campania,,12743,12743
+Canegrate,45.5667,8.9333,Italy,IT,Lombardy,,12574,12574
+Fagnano Olona,45.6667,8.8667,Italy,IT,Lombardy,,12510,12510
+Olgiate Olona,45.6333,8.8833,Italy,IT,Lombardy,,12444,12444
+San Prisco,41.0833,14.2833,Italy,IT,Campania,,12333,12333
+Gricignano d’Aversa,41.0000,14.1833,Italy,IT,Campania,,12296,12296
+Calvizzano,40.9000,14.1833,Italy,IT,Campania,,12182,12182
+Biassono,45.6333,9.2667,Italy,IT,Lombardy,,12164,12164
+Baranzate,45.5167,9.1000,Italy,IT,Lombardy,,12003,12003
+San Gennaro Vesuviano,40.8667,14.5333,Italy,IT,Campania,,11910,11910
+San Gregorio di Catania,37.5667,15.1167,Italy,IT,Sicilia,,11880,11880
+Capaci,38.1667,13.2333,Italy,IT,Sicilia,,11549,11549
+Paullo,45.4167,9.4000,Italy,IT,Lombardy,,11429,11429
+Atripalda,40.9167,14.8256,Italy,IT,Campania,,10968,10968
+Gambettola,44.1167,12.3333,Italy,IT,Emilia-Romagna,,10704,10704
+Macerata Campania,41.0667,14.2667,Italy,IT,Campania,,10507,10507
+San Marzano sul Sarno,40.7697,14.5947,Italy,IT,Campania,,10499,10499
+Procida,40.7667,14.0333,Italy,IT,Campania,,10465,10465
+Boscotrecase,40.7833,14.4667,Italy,IT,Campania,,10247,10247
+Capodrise,41.0500,14.3000,Italy,IT,Campania,,10133,10133
+Poggio a Caiano,43.8167,11.0667,Italy,IT,Tuscany,,10048,10048
+Bonate di Sopra,45.6833,9.5667,Italy,IT,Lombardy,,10020,10020
+Fino Mornasco,45.7500,9.0333,Italy,IT,Lombardy,,9865,9865
+Lurate Caccivio,45.7667,9.0000,Italy,IT,Lombardy,,9847,9847
+Vanzago,45.5268,8.9947,Italy,IT,Lombardy,,9224,9224
+Vittuone,45.4833,8.9500,Italy,IT,Lombardy,,9152,9152
+Sant’Agnello,40.6294,14.3996,Italy,IT,Campania,,9125,9125
+Vaprio d’Adda,45.5667,9.5333,Italy,IT,Lombardy,,9114,9114
+Cesa,40.9667,14.2333,Italy,IT,Campania,,9039,9039
+Roccapiemonte,40.7617,14.6933,Italy,IT,Campania,,8977,8977
+Torre Boldone,45.7167,9.7000,Italy,IT,Lombardy,,8755,8755
+Bruino,45.0167,7.4667,Italy,IT,Piedmont,,8598,8598
+Casapulla,41.0667,14.2833,Italy,IT,Campania,,8597,8597
+Brembate,45.6000,9.5500,Italy,IT,Lombardy,,8551,8551
+Pogliano Milanese,45.5333,9.0000,Italy,IT,Lombardy,,8406,8406
+Fiesso d’Artico,45.4167,12.0333,Italy,IT,Veneto,,8341,8341
+Capriate San Gervasio,45.6089,9.5281,Italy,IT,Lombardy,,8173,8173
+Mariglianella,40.9167,14.4333,Italy,IT,Campania,,7924,7924
+Portico di Caserta,41.0500,14.2833,Italy,IT,Campania,,7903,7903
+Marnate,45.6289,8.8981,Italy,IT,Lombardy,,7903,7903
+Rovellasca,45.6667,9.0500,Italy,IT,Lombardy,,7797,7797
+Recale,41.0500,14.3000,Italy,IT,Campania,,7710,7710
+Curno,45.6911,9.6125,Italy,IT,Lombardy,,7574,7574
+Cavenago di Brianza,45.5847,9.4158,Italy,IT,Lombardy,,7350,7350
+Carnate,45.6506,9.3785,Italy,IT,Lombardy,,7327,7327
+Binasco,45.3333,9.1000,Italy,IT,Lombardy,,7257,7257
+Isola delle Femmine,38.1972,13.2472,Italy,IT,Sicilia,,7249,7249
+Cimitile,40.9406,14.5245,Italy,IT,Campania,,7167,7167
+Barlassina,45.6500,9.1333,Italy,IT,Lombardy,,7015,7015
+Villa di Serio,45.7217,9.7350,Italy,IT,Lombardy,,6777,6777
+Gorle,45.7039,9.7192,Italy,IT,Lombardy,,6557,6557
+Albiate,45.6667,9.2500,Italy,IT,Lombardy,,6352,6352
+Tropea,38.6781,15.8969,Italy,IT,Calabria,,6307,6307
+Villa Cortese,45.5667,8.8833,Italy,IT,Lombardy,,6171,6171
+Cavaria,45.7000,8.8000,Italy,IT,Lombardy,,5834,5834
+Almenno San Salvatore,45.7500,9.5833,Italy,IT,Lombardy,,5677,5677
+Albisola Marina,44.3333,8.5000,Italy,IT,Liguria,,5387,5387
+Camposano,40.9500,14.5333,Italy,IT,Campania,,5320,5320
+Albizzate,45.7167,8.8000,Italy,IT,Lombardy,,5299,5299
+Castronno,45.7333,8.8000,Italy,IT,Lombardy,,5253,5253
+Trezzano Rosa,45.5833,9.4833,Italy,IT,Lombardy,,5183,5183
+Barzanò,45.7333,9.3167,Italy,IT,Lombardy,,5101,5101
+Arosio,45.7167,9.2167,Italy,IT,Lombardy,,5019,5019
+Lomagna,45.6667,9.3667,Italy,IT,Lombardy,,5000,5000
+Lacco Ameno,40.7500,13.8833,Italy,IT,Campania,,4805,4805
+Murano,45.4575,12.3536,Italy,IT,Veneto,,4683,4683
+Ponte Lambro,45.8333,9.2333,Italy,IT,Lombardy,,4303,4303
+Colonna,41.8333,12.7500,Italy,IT,Lazio,,4290,4290
+Malgrate,45.8489,9.3763,Italy,IT,Lombardy,,4271,4271
+Solbiate Arno,45.7167,8.8167,Italy,IT,Lombardy,,4153,4153
+Aci Bonaccorsi,37.6000,15.1167,Italy,IT,Sicilia,,3529,3529
+Bárcola,45.6794,13.7544,Italy,IT,Friuli Venezia Giulia,,2801,2801
+Pellestrina,45.2723,12.3008,Italy,IT,Veneto,,2545,2545
